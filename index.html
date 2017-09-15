@@ -10,40 +10,48 @@
 <body>
     <div class="inputs">
         <h1>Square</h1>
-        <form>
+        
             Side Length:<br>
-            <input type="text" name="sidelength" id="square-side-box">
+            <input type="number" name="sidelength" id="square-side-box">
             <button class="submit" id="square-submit">Submit</div>
-        </form>    
+         
     </div>
     <div class="inputs">
         <h1>Rectangle</h1>
-        <form>
+        
             Height:<br>
-            <input type="text" name="sidelength" id="rect-height-box"><br>
+            <input type="number" name="sidelength" id="rect-height-box"><br>
             Length:<br>
             <input type="text" name="sidelength" id="rect-length-box">
             <button class="submit" id="rect-submit">Submit</div>
-        </form>
+        
     </div>
     <div class="inputs">
         <h1>Triangle</h1>
-        <form>
+        
             Height:<br>
-            <input type="text" name="sidelength" id="tri-height-box">
+            <input type="number" name="sidelength" id="tri-height-box">
             <button class="submit" id="tri-submit">Submit</div>
-        </form>
+        
     </div>
     <div class="inputs">
         <h1>Circle</h1>
-        <form>
+        
             Radius:<br>
-            <input type="text" name="sidelength" id="cir-radius-box">
+            <input type="number" name="sidelength" id="cir-radius-box">
             <button class="submit" id="cir-submit">Submit</div>
-        </form>
+    
 
     </div>
     <div class="canvas"></div>
+    <div id="detail-pane">
+        <p>Shape Name: <span id='shape-name-detail'></span></p>
+        <p>Width: <span id='width-detail'></span></p>
+        <p>Height: <span id='height-detail'></span></p>
+        <p>Radius: <span id='radius-detail'></span></p>
+        <p>Area: <span id='area-deatil'></span></p>
+        <p>Perimeter: <span id='perimeter-detail'></span></p>
+        
 
     
     <script src="script.js"></script>

@@ -2,6 +2,12 @@
     height: 600px;
     width: 600px;
     background-color: grey;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+
+
 
 }
 
@@ -13,6 +19,13 @@ h1{
 
 .submit{
     float: top;
-    background-color: whitesmoke;
+
 }
 
+#detail-pane{
+  display: inline-block;
+}
+
+.circle{
+    background-color: red;
+}
