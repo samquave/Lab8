@@ -1,4 +1,4 @@
-.canvas{
+#canvas {
     height: 600px;
     width: 600px;
     background-color: grey;
@@ -11,21 +11,38 @@
 
 }
 
-h1{
+h1 {
     font-size: 20px;
     text-decoration: underline;
 
 }
 
-.submit{
+.submit {
     float: top;
 
 }
 
-#detail-pane{
+#detail-pane {
   display: inline-block;
+  width: 300px;
+  margin: 0 30px;
+  vertical-align: top;
 }
 
-.circle{
+.circle {
     background-color: red;
+    border-radius: 50%;
 }
+
+.shape {
+    position: absolute;
+}
+
+.square {
+    background-color: orange;
+}
+
+.rectangle {
+    background-color: green;
+}
+
